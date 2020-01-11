@@ -52,7 +52,7 @@ class Spotify(object):
     trace_out = False
     max_get_retries = 10
 
-    def __init__(self, auth=None, requests_session=True,
+    def  __init__(self, auth=None, requests_session=True,
         client_credentials_manager=None, proxies=None, requests_timeout=None):
         """
         Create a Spotify API object.
